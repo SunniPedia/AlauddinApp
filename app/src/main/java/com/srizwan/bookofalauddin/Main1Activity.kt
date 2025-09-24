@@ -1,4 +1,4 @@
-package com.srizwan.bookhozur14
+package com.srizwan.bookofalauddin
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -79,7 +79,7 @@ class Main1Activity : AppCompatActivity() {
         imageView4.setOnClickListener {
             rate.apply {
                 action = Intent.ACTION_VIEW
-                data = Uri.parse("https://play.google.com/apps/details?id=com.srizwan.bookhozur14")
+                data = Uri.parse("https://play.google.com/apps/details?id=com.srizwan.bookofalauddin")
             }
             startActivity(rate)
             Toast.makeText(this@Main1Activity, "Rate us", Toast.LENGTH_SHORT).show()
@@ -87,7 +87,7 @@ class Main1Activity : AppCompatActivity() {
 
         imageView7.setOnClickListener {
             a = "Share app now"
-            b = "https://play.google.com/apps/details?id=com.srizwan.bookhozur14"
+            b = "https://play.google.com/apps/details?id=com.srizwan.bookofalauddin"
             share.apply {
                 type = "text/plain"
                 action = Intent.ACTION_SEND

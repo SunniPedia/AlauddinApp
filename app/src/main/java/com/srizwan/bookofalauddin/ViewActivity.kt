@@ -1,4 +1,4 @@
-package com.srizwan.bookhozur14
+package com.srizwan.bookofalauddin
 
 import android.content.ClipData
 import android.content.ClipboardManager

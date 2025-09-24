@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.srizwan.bookhozur14"
+    namespace = "com.srizwan.bookofalauddin"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.srizwan.bookhozur14"
+        applicationId = "com.srizwan.bookofalauddin"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
